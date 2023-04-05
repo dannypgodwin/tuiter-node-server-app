@@ -8,7 +8,7 @@ const createTuit = (req, res) => {
     newTuit.replies = 0;
     newTuit.retuits = 0;
     newTuit.liked = false;
-    newTuit.avatar_img = "reactlogo.png"
+    newTuit.image = "spacex.jpg"
     newTuit.handle = "@spacex"
     tuits.push(newTuit);
     res.json(newTuit);
